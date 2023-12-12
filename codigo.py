@@ -47,3 +47,4 @@ plt.ylabel('Magnitud')
 plt.xlim([0, fs/2])
 
 plt.show()
+
