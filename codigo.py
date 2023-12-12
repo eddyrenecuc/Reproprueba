@@ -43,8 +43,17 @@ plt.title('Transformada Discreta de Fourier (TDF)')
 plt.xlabel('Frecuencia [Hz]')
 plt.ylabel('Magnitud')
 
+# Gráfica de TDF en el dominio de la frecuencia
+plt.subplot(2, 1, 2)
+plt.plot(f, np.abs(TDF))
+plt.title('Transformada Discreta de Fourier (TDF)')
+plt.xlabel('Frecuencia [Hz]')
+plt.ylabel('Magnitud')
+
 # Ajustar los límites del eje x en la segunda subtrama para mostrar solo frecuencias positivas
 plt.xlim([0, fs/2])
 
 plt.show()
+
+
 
